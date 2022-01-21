@@ -63,7 +63,7 @@ public class GenerateReportController extends HttpServlet {
 			try {
 				Document document = new Document();
 	        
-				OutputStream file = new FileOutputStream(new File("C://Users//hp//Desktop//Liste des utilisateurs.pdf"));
+				OutputStream file = new FileOutputStream(new File("Liste des utilisateurs.pdf"));
 	            PdfWriter.getInstance(document, file);
 	            
 	            document.open();
